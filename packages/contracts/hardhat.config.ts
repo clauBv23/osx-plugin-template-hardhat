@@ -25,6 +25,7 @@ const apiUrls: NetworkNameMapping = {
   goerli: 'https://goerli.infura.io/v3/',
   polygon: 'https://polygon-mainnet.infura.io/v3/',
   polygonMumbai: 'https://polygon-mumbai.infura.io/v3/',
+  baseMainnet: 'https://developer-access-mainnet.base.org',
   baseGoerli: 'https://goerli.base.org',
 };
 
@@ -52,6 +53,11 @@ export const networks: {[index: string]: NetworkUserConfig} = {
   polygonMumbai: {
     chainId: 80001,
     url: `${apiUrls.polygonMumbai}${process.env.INFURA_API_KEY}`,
+  },
+  baseMainnet: {
+    chainId: 8453,
+    url: `${apiUrls.baseMainnet}`,
+    gasPrice: parseUnits('1.6', 'gwei').toNumber(),
   },
   baseGoerli: {
     chainId: 84531,
@@ -89,6 +95,7 @@ const config: HardhatUserConfig = {
       goerli: process.env.ETHERSCAN_API_KEY || '',
       polygon: process.env.POLYGONSCAN_API_KEY || '',
       polygonMumbai: process.env.POLYGONSCAN_API_KEY || '',
+      baseMainnet: process.env.BASESCAN_API_KEY || '',
       baseGoerli: process.env.BASESCAN_API_KEY || '',
     },
     customChains: [
