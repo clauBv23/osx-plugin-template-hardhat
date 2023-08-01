@@ -1,9 +1,9 @@
 import { ERC1967ABI, ERC1967Bytecode } from '../abi';
-import * as aragonContracts from '@aragon/osx-ethers';
 import {
   MyPluginSetup,
   MyPluginSetup__factory,
-} from '@aragon/simple-storage-ethers';
+} from '@aragon/my-plugin-ethers';
+import * as aragonContracts from '@aragon/osx-ethers';
 import ENSRegistry from '@ensdomains/ens-contracts/artifacts/contracts/registry/ENSRegistry.sol/ENSRegistry.json';
 import PublicResolver from '@ensdomains/ens-contracts/artifacts/contracts/resolvers/PublicResolver.sol/PublicResolver.json';
 import { Signer } from '@ethersproject/abstract-signer';

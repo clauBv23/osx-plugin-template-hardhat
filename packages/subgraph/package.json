@@ -20,7 +20,7 @@
     "clean": "rimraf deploy-output.txt subgraph.yaml ./build ./imported ./generated ./tests/.bin tests/.latest.json && yarn postinstall"
   },
   "devDependencies": {
-    "osx-ethersV120": "npm:@aragon/osx-ethers@1.2.1",
+    "@aragon/osx-ethers": "1.3.0-rc0.1",
     "@graphprotocol/graph-cli": "^0.51.0",
     "@graphprotocol/graph-ts": "^0.31.0",
     "matchstick-as": "^0.5.2",
