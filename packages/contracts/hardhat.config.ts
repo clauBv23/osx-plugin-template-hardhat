@@ -5,6 +5,7 @@ import '@nomiclabs/hardhat-etherscan';
 import '@openzeppelin/hardhat-upgrades';
 import '@typechain/hardhat';
 import {config as dotenvConfig} from 'dotenv';
+import {parseUnits} from 'ethers/lib/utils';
 import 'hardhat-deploy';
 import 'hardhat-gas-reporter';
 import {extendEnvironment, HardhatUserConfig} from 'hardhat/config';
@@ -62,7 +63,7 @@ export const networks: {[index: string]: NetworkUserConfig} = {
   baseGoerli: {
     chainId: 84531,
     url: `${apiUrls.baseGoerli}`,
-    gasPrice: 20000000000,
+    gasPrice: parseUnits('1.6', 'gwei').toNumber(),
   },
 };
 
