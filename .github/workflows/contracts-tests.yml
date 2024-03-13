@@ -38,3 +38,7 @@ jobs:
         env:
           NETWORK_NAME: ${{ vars.NETWORK_NAME }}
           ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+
+      - uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
