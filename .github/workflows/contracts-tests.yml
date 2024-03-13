@@ -38,7 +38,8 @@ jobs:
         env:
           NETWORK_NAME: ${{ vars.NETWORK_NAME }}
           ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
-        - name: Upload coverage reports to Codecov
+
+      - name: 'Upload coverage reports to Codecov'
         uses: codecov/codecov-action@v4.0.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
