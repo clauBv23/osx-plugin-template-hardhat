@@ -1,10 +1,10 @@
-name: 'claudia'
+name: Claudia
 
-on:
-  pull_request
-  # paths:
-  #   - 'claudia.txt'
+on: push
 
 jobs:
   claudia:
-    run: echo claudia
+    runs-on: ubuntu-latest
+    steps:
+      - name: Claudia
+        run: echo "claudia!"
