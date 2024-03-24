@@ -1,11 +1,9 @@
-# Aragon OSX Plugin Template [![Hardhat][hardhat-badge]][hardhat] [![License: AGPL v3][license-badge]][license] [![Coverage Status][codecov-badge]][codecov]
+# Aragon OSX Plugin Template [![Hardhat][hardhat-badge]][hardhat] [![License: AGPL v3][license-badge]][license]
 
 [hardhat]: https://hardhat.org/
 [hardhat-badge]: https://img.shields.io/badge/Built%20with-Hardhat-FFDB1C.svg
 [license]: https://opensource.org/licenses/AGPL-v3
 [license-badge]: https://img.shields.io/badge/License-AGPL_v3-blue.svg
-[codecov-badge]: https://codecov.io/gh/clauBv23/osx-plugin-template-hardhat/graph/badge.svg?token=Dryp5nOQFy
-[codecov]: https://codecov.io/gh/clauBv23/osx-plugin-template-hardhat
 
 ## Quickstart
 
