@@ -3,7 +3,7 @@ name: 'contracts'
 on:
   pull_request:
     paths:
-      - 'packages/contracts/**'
+      # - 'packages/contracts/**'
       - '.github/workflows/contracts-*.yml'
 
 jobs:
