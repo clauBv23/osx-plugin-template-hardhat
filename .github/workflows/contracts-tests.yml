@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       # - 'packages/contracts/**'
+      - '.github/workflows/claudia.yml'
       - '.github/workflows/contracts-*.yml'
 
 jobs:
