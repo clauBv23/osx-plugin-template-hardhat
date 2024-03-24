@@ -1,9 +1,9 @@
 name: 'claudia'
 
 on:
-  pull_request:
-    paths:
-      - 'claudia.txt'
+  pull_request
+  # paths:
+  #   - 'claudia.txt'
 
 jobs:
   claudia:
