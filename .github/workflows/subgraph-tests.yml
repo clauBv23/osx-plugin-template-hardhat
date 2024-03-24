@@ -6,7 +6,7 @@ on:
     paths:
       - 'packages/subgraph/**'
       - 'packages/contracts/**'
-      - '.github/workflows/**'
+      - '.github/workflows/subgraph-*.yml'
 
 jobs:
   formatting-linting:
