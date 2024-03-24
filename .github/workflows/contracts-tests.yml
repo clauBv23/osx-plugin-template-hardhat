@@ -1,7 +1,6 @@
 name: 'contracts'
 
 on:
-  workflow_dispatch:
   pull_request:
     paths:
       - 'packages/contracts/**'
