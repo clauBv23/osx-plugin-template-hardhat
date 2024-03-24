@@ -5,6 +5,7 @@ on:
     paths:
       # - 'packages/contracts/**'
       - '.github/workflows/claudia.yml'
+      - 'claudia.txt'
       - '.github/workflows/contracts-*.yml'
 
 jobs:
