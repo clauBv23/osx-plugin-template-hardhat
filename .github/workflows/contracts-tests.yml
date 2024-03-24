@@ -1,4 +1,4 @@
-name: 'contracts'
+name: contracts
 
 on:
   workflow_dispatch:
@@ -6,6 +6,7 @@ on:
     paths:
       - 'packages/contracts/**'
       - '.github/workflows/contracts-*.yml'
+      - 'claudia.txt'
 
 jobs:
   formatting-linting:
