@@ -1,6 +1,9 @@
 name: Claudia
 
-on: push
+on:
+  pull_request:
+  paths:
+    - 'claudia.txt'
 
 jobs:
   claudia:
