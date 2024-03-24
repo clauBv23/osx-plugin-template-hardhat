@@ -5,7 +5,7 @@ on:
   pull_request:
     paths:
       - 'packages/contracts/**'
-      - '.github/workflows/contracts-*.yml'
+      - '.github/workflows/**'
 
 jobs:
   formatting-linting:
